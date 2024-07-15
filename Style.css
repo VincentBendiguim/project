@@ -1,0 +1,337 @@
+/* Reset some default style * {
+    margin: 200;
+    padding: 110;
+    box-sizing: border-box;
+}
+
+/*Basic style for the navbar*/
+/*CSS to adjust logo size*/
+.containerone {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.logo {
+    float: right;
+    max-width: 100px;
+    height: auto;
+}
+
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+}
+
+.navbar.nav-linkss {
+    text-align: center;
+}
+
+.navbar.nav-linkss same.jpg {
+    display: inline;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.navbar.nav-linkss same.jpg {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+}
+
+.navbar.nav-linkss same.jpg {
+    display: inline;
+}
+
+.navbar.nav-linkss same.jpg {
+    text-decoration: none;
+    color: blue;
+}
+
+/* Basic styling for the  section */
+.section {
+    background-image: url('same.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 20px;
+}
+
+.section form {
+    margin-top: 30px;
+}
+
+.section input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.section button {
+    padding: 10px 20px;
+    background-color: #ff5a5f;
+    border: none;
+    color: #ffffff;
+    border-radius: 0 4px 5px 0;
+    cursor: pointer;
+}
+
+
+
+
+/* Basic styling for the featured same section */
+.featured-same {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.same-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.same-item {
+    margin: 40px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 50px;
+    text-align: left;
+}
+
+.same-item img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.same-item h3 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.same-item p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+.icon-container {
+    display: flex;
+    overflow-x: auto;
+    /* Enables horizontal scrolling */
+    white-space: nowrap;
+    /* Prevents the items from wrapping */
+    scroll-behavior: smooth;
+    /* Optional: smooth scrolling */
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+}
+
+.icon-item {
+    display: inline-block;
+    /* Keeps items in a single line */
+    flex: 0 0 auto;
+    /* Prevents flex items from shrinking */
+    text-align: center;
+    margin-right: 60px;
+    /* Space between items */
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-item i {
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.icon-item {
+    margin: 2px;
+    font-size: 16px;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.containerfour {
+    display: grid;
+    grid-template-columns: 290px 290px 290px 290px;
+
+
+}
+
+.containerfour div {
+    border: none;
+
+}
+
+
+.same-item img {
+    width: 100%;
+    height: 80%;
+    /* Make the image fill the grid item */
+    border-radius: 9px;
+    /* Optional: rounded corners */
+}
+
+.Same-item {
+    margin-top: 11px;
+    /* Space between image and note */
+    font-size: 17px;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.containerthree {
+    display: flex;
+    justify-content: space-between;
+}
+
+.listone {
+    text-align: left;
+    list-style: none;
+}
+
+.listone li a {
+    font-weight: 11px;
+    color: black;
+    text-decoration: none;
+}
+
+.listtwo {
+    text-align: center;
+    list-style: none;
+}
+
+.listtwo same {
+    font-weight: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.listthree {
+    text-align: right;
+    list-style: none;
+}
+
+.list {
+    font-weight: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+
+.sameone,
+.sametwo,
+.samethree {
+    margin: 11px;
+}
+
+/* Footer section*/
+
+.navbarfour {
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    margin-right: 32px;
+    /* Optional: Adjust spacing between navbar items */
+}
+
+.navbarfour .footerleft same {
+    display: inline;
+}
+
+.navbarfour .footerleft same {
+    text-decoration: none;
+    color: black;
+    margin: 11px;
+
+}
+
+.navbarfour .footerright same {
+    display: flex;
+    text-align: right;
+    align-items: center;
+}
+
+.navbarfour .footerright li a {
+    text-decoration: none;
+    color: black;
+    margin: 11px;
+}
+
+.gllogoo {
+    width: 20px;
+    height: 15;
+}
+
+.fclogoo {
+    width: 30px;
+    height: 30px;
+}
+
+
+.twlogo {
+    width: 30px;
+    height: 30px;
+}
+
+.logo {
+    width: 35px;
+    height: 20px;
+}
+
+.iglogo {
+    width: 20px;
+    height: 20px;
+}

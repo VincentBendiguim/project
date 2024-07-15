@@ -1,0 +1,309 @@
+ body {
+     background-color: lightcyan;
+     margin: 0;
+     padding: 0;
+ }
+
+
+ .Container {
+     text-align: center;
+     padding-top: 1.5%;
+     padding-bottom: 1.5%;
+
+ }
+
+ .container {
+     display: flex;
+     place-content: space-between;
+     margin: 0;
+     padding-right: 50px;
+
+
+ }
+
+ .pictures {
+     width: 100px;
+
+
+ }
+
+ .heade.icon-container:hover {
+     color: green;
+
+ }
+
+ .nav-links {
+     display: flex;
+     position: relative;
+
+
+
+ }
+
+ .nav-links li {
+     list-style: none;
+ }
+
+ .navbar a {
+     text-decoration: none;
+     margin-left: 30px;
+     font-weight: 700px;
+ }
+
+
+ .Navlink {
+     display: flex;
+ }
+
+ .Navlink {
+     border: 1px;
+     padding-left: 2px;
+
+     /*le petit carro sous airbnb votre maison*/
+ }
+
+ .body {
+     background-color: white;
+     height: 100%;
+     width: 100vw;
+     border-radius: 25px;
+     border-bottom-right-radius: 0%;
+     border-bottom-left-radius: 0%;
+ }
+
+ #design {
+     text-decoration: dashed;
+     color: 0;
+     font-weight: lighter;
+     font-size: medium;
+     font-family: 'Times New Roman', Times, serif;
+
+     /* arrangement du cencdrement des check out*/
+ }
+
+ #hover :hover {
+     background-color: lightblue;
+     border-radius: 20px;
+     padding: 7px;
+
+     /*arrangement des element du lentete airbnb votre maison*/
+ }
+
+ #Hover :hover {
+     background-color: white;
+ }
+
+ .hover {
+     padding: 20px;
+     margin: 20px;
+
+
+ }
+
+ .search2 {
+     border: solid;
+     width: 75%;
+     border-radius: 60px;
+     margin: 10px;
+     padding: 10px;
+     display: flex;
+     gap: 1px;
+     grid-template-columns: 200px 200px 180px 310px;
+     margin-left: 15%;
+     margin-right: 20%;
+     place-content: center;
+
+     /*arrangement de check */
+ }
+
+ .search2 div {
+     /* border: solid;
+     margin: 12px;
+     border-radius: 45px; */
+     padding-left: 17px;
+
+
+ }
+
+ input {
+     text-align: center;
+     border: none;
+     display: flex;
+     margin-top: 6px;
+
+     /*les element dans la tableau de input*/
+ }
+
+ .gen {
+
+     display: flex;
+
+ }
+
+ #Hover :hover {
+     background-color: gainsboro;
+
+     /* color derier les check out dans le tableau*/
+
+
+ }
+
+ .heading .icon-container:hover {
+     color: lightseagreen;
+
+ }
+
+ .icon-container {
+     display: flex;
+     place-content: space-evenly;
+
+     /*position de symbole des mais cuisine douche*/
+
+ }
+
+ .pictures {
+     font-size: 15px;
+     font-weight: lighter;
+     font-family: 'Times New Roman', Times, serif;
+ }
+
+ .pictures {
+     border: solid;
+     height: 280px;
+     width: 280px;
+     background-color: blue;
+     margin-bottom: 30px;
+     border-radius: 10px;
+
+ }
+
+ .grid {
+     padding: 20px;
+     display: grid;
+     grid-template-columns: 300px 300px 300px 300px;
+     gap: 10px;
+
+     /*arrangemet sous gataways*/
+ }
+
+ button {
+     display: flex;
+     place-content: space-around;
+     width: 50px;
+     height: 30px;
+     background-color: white;
+
+     /*le carrer sous len tete de airbnb votre maison*/
+ }
+
+ .pictures {
+     overflow: hidden;
+     overflow-x: visible;
+     padding: 0%;
+     overflow-y: auto;
+     /* border-block-color: red;
+     border-radius: 10cap; */
+
+ }
+
+ .pictures img {
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+
+ }
+
+ .heading {
+     margin: 20px;
+     padding: 20px;
+     border-style: circle;
+
+     /*Arrangemnet de tete*/
+ }
+
+ /* .bottom {
+     margin: 20px;
+     display: block;
+     text-align: center;
+ } */
+
+
+ .Grid {
+     display: grid;
+     grid-template-columns: 180px 18px 18px 18px 18px;
+     gap: 50px;
+     margin-top: 30px;
+ }
+
+ .placeholder {
+     font-size: x-small;
+     font-weight: bold;
+     background-color: gainsboro;
+
+     /*les ecriture devpetites lettre dans le tableau*/
+ }
+
+ .list {
+     display: flex;
+     text-align: center;
+     align-items: center;
+     margin: 50px;
+     padding: 50px;
+     gap: 10%;
+
+     /*distance entre les icons*/
+ }
+
+ .list {
+     display: inline-block;
+     text-align: center;
+
+ }
+
+ .list {
+     width: max-content;
+     align-items: center;
+
+
+
+ }
+
+ .list a {
+
+     text-decoration: underline;
+     display: flex;
+     position: relative;
+
+
+ }
+
+ .list {
+     text-decoration: none;
+ }
+
+ h2 {
+     text-align: center;
+
+ }
+
+ h2:hover {
+     color: lime;
+ }
+
+ .down {
+     display: flex;
+     place-content: space-between;
+
+     /*arrangement des element sous inspration gateway*/
+ }
+
+ .down a {
+     text-decoration: none;
+     display: flex;
+     position: relative;
+
+ }
+
+ .down a:hover {
+     color: lightseagreen;
+ }
